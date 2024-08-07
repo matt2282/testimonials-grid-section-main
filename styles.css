@@ -30,6 +30,7 @@ img {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+  box-shadow: 0 0 20px hsl(229, 6%, 66%);
 }
 .box header {
   display: flex;
@@ -95,7 +96,6 @@ img {
   position: absolute;
   top: 0%;
   left: 65%;
-  filter: contrast(1.5);
   z-index: 0;
 }
 #box-2 {
@@ -147,12 +147,7 @@ img {
 }
 @media only screen and (max-width:769px) {
   #quotation {
-    border-radius: 0px;
-    position: absolute;
-    top: 0%;
     left: 55%;
-    filter: contrast(1.5);
-    z-index: 0;
   }
   .container{
     width: 325px;
